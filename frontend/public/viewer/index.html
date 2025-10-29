@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SMR TwinMaker Viewer (External Bundle Placeholder)</title>
+    <style>
+      body { margin: 0; background: #0d0f12; color: #cbd5e1; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+      .wrap { display: grid; place-items: center; height: 100vh; padding: 24px; }
+      .card { max-width: 720px; background: #121318; border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 20px; }
+      code { background: #0b0c0e; padding: 2px 6px; border-radius: 6px; color: #86efac; }
+      a { color: #22c55e; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h2>SMR TwinMaker Viewer – External Bundle Placeholder</h2>
+        <p>
+          This is a placeholder page to host a prebuilt TwinMaker scene viewer bundle. To enable the embedded viewer without installing heavy packages in this environment, build the viewer externally (or use CookieFactoryV3 sample) and drop the compiled assets into <code>public/viewer/</code>.
+        </p>
+        <ol>
+          <li>Clone AWS sample: <a href="https://github.com/aws-samples/aws-iot-twinmaker-samples" target="_blank" rel="noreferrer">aws-iot-twinmaker-samples</a></li>
+          <li>Build the CookieFactoryV3 dashboard or a minimal AppKit scene viewer on your machine.</li>
+          <li>Copy the built <code>index.html</code>, JS and CSS bundles into this folder (<code>public/viewer/</code>).</li>
+          <li>Reload the dashboard – the iframe will render your viewer here.</li>
+        </ol>
+        <p>If you already placed files here and still see this message, ensure <code>index.html</code> exists and loads its JS bundles with relative paths.</p>
+      </div>
+    </div>
+  </body>
+</html>

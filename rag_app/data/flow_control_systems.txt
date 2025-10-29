@@ -1,0 +1,110 @@
+SMR Flow Control Systems and Instrumentation
+
+1. Inlet Flow Control Systems
+
+H2 Inlet Flowrate Control:
+- Primary control loop manages hydrogen feed flow
+- Set variable (H2_Inlet_Flowrate_Set_variable): Operator-defined target in ml/min
+- Process variable (H2_Inlet_Flowrate_Process_variable): Real-time measured flow
+- Typical ranges: 900-1400 ml/min for normal operation
+- Control valve response time: 2-5 seconds
+- Measurement accuracy: ±2% of full scale
+
+CH4 (Methane) Inlet Control:
+- CH4_Inlet_Flowrate_Set_variable: Target methane flow rate
+- CH4_Inlet_Flowrate_Process_variable: Actual measured flow
+- Operating range: 1000-1800 ml/min depending on production demand
+- Steam-to-carbon ratio maintained at 2.5-3.5:1
+
+CO2 Inlet Flow (for some configurations):
+- CO2_Inlet_Flowrate_Set_variable: Carbon dioxide injection rate
+- CO2_Inlet_Flowrate_Process_variable: Measured CO2 flow
+- Used for process optimization and carbon management
+
+N2 (Nitrogen) Purge System:
+- N_Inlet_Flowrate_Set_variable: Nitrogen purge flow setpoint
+- N_Inlet_Flowrate_Process_variable: Actual nitrogen flow
+- Used for startup, shutdown, and emergency purging
+- Typical range: 500-1200 ml/min during purge operations
+
+Air Inlet (for combustion):
+- Air_Inlet_Flowrate_Set_variable: Combustion air setpoint
+- Air_Inlet_Flowrate_Process_variable: Measured air flow
+- Controls furnace combustion for reactor heating
+
+2. Temperature Control Systems
+
+Preheater Systems:
+- Preheater_Temp_Set_variable: Target preheating temperature
+- Preheater_Temp_Process_variable: Actual measured temperature
+- Typical setpoint: 450-550°C
+- Critical for reaction initiation and efficiency
+
+Reactor Zone Control:
+- Multiple temperature zones (typically 3-5 zones)
+- Each zone has independent temperature control
+- Zone temperatures range from 850-950°C
+- Radial temperature uniformity within ±20°C
+
+3. Pressure Management
+
+System Pressure Control:
+- Operating pressure maintained at 15-30 bar
+- Pressure sensors at multiple locations
+- Automatic pressure relief systems
+- Control valves regulate system pressure
+
+4. Outlet Flow Monitoring
+
+Product Gas Streams:
+- H2O_Outlet_Flowrate: Water vapor and condensate flow
+- CO_Outlet_Flowrate: Carbon monoxide in product stream
+- H2_Outlet_Flowrate: Primary hydrogen product flow
+- N_Outlet_Flowrate: Nitrogen in product stream (from purge)
+- CH4_Outlet_Flowrate: Unreacted methane
+- CO2_Outlet_Flowrate: Carbon dioxide product
+- Air_Outlet_Flowrate: Combustion air exhaust
+
+5. Control Loop Tuning
+
+PID Controller Settings:
+- Proportional gain: Adjusted based on process dynamics
+- Integral time: Typically 30-120 seconds for flow loops
+- Derivative time: Usually 5-15 seconds
+- Anti-windup protection enabled for all controllers
+
+Response Characteristics:
+- Flow control loops: 95% response in 10-20 seconds
+- Temperature loops: 95% response in 2-5 minutes
+- Pressure loops: 95% response in 5-15 seconds
+
+6. Alarm and Safety Systems
+
+Critical Alarms:
+- High/Low flow rates on all major streams
+- High temperature in reactor zones
+- High/Low system pressure
+- Loss of control air or power
+
+Safety Interlocks:
+- Emergency shutdown on critical parameter deviation
+- Automatic fuel gas shutoff on flame failure
+- Nitrogen purge activation on emergency stop
+- Pressure relief valve activation points
+
+7. Calibration and Maintenance
+
+Flow Meters:
+- Monthly zero and span checks
+- Annual recalibration with certified standards
+- Orifice plate inspection every 6 months
+
+Temperature Sensors:
+- Quarterly calibration checks
+- Thermocouple replacement every 2 years
+- RTD validation annually
+
+Pressure Transmitters:
+- Semi-annual calibration
+- Zero and span verification monthly
+- Isolation valve testing quarterly

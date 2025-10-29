@@ -1,0 +1,81 @@
+{
+  "flowsheet_name": "DRM DigiTwin_backup_backup.dwxmz",
+  "modifications_applied": [
+    "stream_1: Stream 'stream_1' not found",
+    "stream_3: Stream 'stream_3' not found",
+    "stream_4: Stream 'stream_4' not found"
+  ],
+  "output_streams": {
+    "stream_6": {
+      "active": true,
+      "custom_name": "R-Inlet",
+      "density_kg_m3": 1.2324073425044253,
+      "enthalpy_kJ_kg": -1.0006,
+      "entropy_kJ_kg_K": 0.242896,
+      "mass_flow_kg_s": 4.11e-05,
+      "mass_flow_mg_s": 41.0991,
+      "molar_flow_mol_s": 0.0013677,
+      "molecular_weight_kg_mol": 30.0498,
+      "naming": {
+        "custom_name": "R-Inlet",
+        "description": "",
+        "display_name": "MAT-b23391d5-e778-4e21-b7db-8d5c7a3312ec",
+        "graphic_name": "MAT-b23391d5-e778-4e21-b7db-8d5c7a3312ec",
+        "graphic_tag": "R-Inlet",
+        "tag": "",
+        "uuid": "MAT-b23391d5-e778-4e21-b7db-8d5c7a3312ec"
+      },
+      "pressure_Pa": 101290.4876,
+      "pressure_bar": 1.0129,
+      "stream_number": 6,
+      "temperature_C": 24.9368,
+      "temperature_K": 298.0868,
+      "timestamp": "2025-10-07T15:34:51.707528",
+      "uuid": "MAT-b23391d5-e778-4e21-b7db-8d5c7a3312ec",
+      "volumetric_flow_m3_s": 3.335e-05
+    },
+    "stream_7": {
+      "active": false,
+      "custom_name": "7",
+      "density_kg_m3": "infinite",
+      "enthalpy_kJ_kg": 0.0,
+      "entropy_kJ_kg_K": 0.0,
+      "mass_flow_kg_s": 0.0,
+      "mass_flow_mg_s": 0.0,
+      "molar_flow_mol_s": 0.0,
+      "molecular_weight_kg_mol": 0.0,
+      "naming": {
+        "custom_name": "7",
+        "description": "",
+        "display_name": "MAT-18f464b0-c55d-4c38-9659-4406b58bacf7",
+        "graphic_name": "MAT-18f464b0-c55d-4c38-9659-4406b58bacf7",
+        "graphic_tag": "7",
+        "tag": "",
+        "uuid": "MAT-18f464b0-c55d-4c38-9659-4406b58bacf7"
+      },
+      "pressure_Pa": 101290.4876,
+      "pressure_bar": 1.0129,
+      "stream_number": 7,
+      "temperature_C": 850.0,
+      "temperature_K": 1123.15,
+      "timestamp": "2025-10-07T15:34:51.707738",
+      "uuid": "MAT-18f464b0-c55d-4c38-9659-4406b58bacf7",
+      "volumetric_flow_m3_s": 0.0
+    }
+  },
+  "simulation_completed": true,
+  "success": true,
+  "summary": {
+    "active_stream_names": [
+      "stream_1",
+      "stream_2",
+      "stream_3",
+      "stream_4",
+      "stream_5",
+      "stream_6"
+    ],
+    "active_streams": 6,
+    "total_streams": 7
+  },
+  "timestamp": "2025-10-07T15:34:51.707749"
+}

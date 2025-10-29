@@ -1,0 +1,88 @@
+{
+  "tags": [
+    {
+      "id": "h2_inlet",
+      "name": "H₂ Inlet",
+      "processId": "inlets",
+      "position": { "x": -2, "y": 1.5, "z": 1 },
+      "color": "#3b82f6"
+    },
+    {
+      "id": "ch4_inlet", 
+      "name": "CH₄ Inlet",
+      "processId": "inlets",
+      "position": { "x": -1.5, "y": 1.5, "z": 1 },
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "co2_inlet",
+      "name": "CO₂ Inlet", 
+      "processId": "inlets",
+      "position": { "x": -1, "y": 1.5, "z": 1 },
+      "color": "#06b6d4"
+    },
+    {
+      "id": "n2_inlet",
+      "name": "N₂ Inlet",
+      "processId": "inlets", 
+      "position": { "x": -0.5, "y": 1.5, "z": 1 },
+      "color": "#10b981"
+    },
+    {
+      "id": "air_inlet",
+      "name": "Air Inlet",
+      "processId": "inlets",
+      "position": { "x": 0, "y": 1.5, "z": 1 },
+      "color": "#f59e0b"
+    },
+    {
+      "id": "mfc",
+      "name": "MFC",
+      "processId": "mfc",
+      "position": { "x": -0.5, "y": 1, "z": 0.5 },
+      "color": "#22c55e"
+    },
+    {
+      "id": "preheaters",
+      "name": "Preheaters",
+      "processId": "preheaters", 
+      "position": { "x": 0, "y": 0.5, "z": 0 },
+      "color": "#ef4444"
+    },
+    {
+      "id": "reactor",
+      "name": "Reactor",
+      "processId": "reactor",
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "color": "#f97316"
+    },
+    {
+      "id": "condenser",
+      "name": "Condenser", 
+      "processId": "condenser",
+      "position": { "x": 0.5, "y": 0, "z": -0.5 },
+      "color": "#06b6d4"
+    },
+    {
+      "id": "glc",
+      "name": "GLC Separator",
+      "processId": "glc", 
+      "position": { "x": 1, "y": 0, "z": -0.5 },
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "flowmeter",
+      "name": "Flow Meter",
+      "processId": "flowmeter",
+      "position": { "x": 1.5, "y": 0, "z": -0.5 },
+      "color": "#10b981"
+    },
+    {
+      "id": "outlet", 
+      "name": "Outlet",
+      "processId": "outlet",
+      "position": { "x": 2, "y": -0.5, "z": -1 },
+      "color": "#22c55e"
+    }
+  ]
+}

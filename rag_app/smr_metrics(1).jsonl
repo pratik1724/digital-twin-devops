@@ -1,0 +1,5 @@
+{"id": "h2_inlet:set", "key": "H2_Inlet_Flowrate_Set_variable", "type": "metric", "unit": "ml/min", "description": "Hydrogen inlet flowrate set variable"}
+{"id": "h2_inlet:process", "key": "H2_Inlet_Flowrate_Process_variable", "type": "metric", "unit": "ml/min", "description": "Hydrogen inlet flowrate process variable"}
+{"id": "pressure:reactor:set", "key": "Pressure_reactor_Set_variable", "type": "metric", "unit": "bar", "description": "Reactor pressure set variable"}
+{"id": "pressure:reactor:process", "key": "Pressure_reactor_Process_variable", "type": "metric", "unit": "bar", "description": "Reactor pressure process variable"}
+{"id": "rule:n2_air", "type": "rule", "statement": "N2 and Air share one controller and cannot be set simultaneously."}

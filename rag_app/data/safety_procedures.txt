@@ -1,0 +1,164 @@
+SMR Safety Procedures and Operating Guidelines
+
+1. General Safety Requirements
+
+Personal Protective Equipment (PPE):
+- Fire-resistant clothing required in all process areas
+- Safety glasses and hard hats mandatory
+- Gas detectors for hydrogen leak detection
+- Emergency breathing apparatus readily available
+- Heat-resistant gloves for high-temperature work
+
+2. Startup Procedures
+
+Pre-startup Safety Checks:
+1. Verify all emergency shutdown systems are functional
+2. Check nitrogen purge system availability
+3. Confirm fire protection systems are operational
+4. Test gas detection systems and alarms
+5. Verify communication systems are working
+
+Startup Sequence:
+1. Begin with nitrogen purge of all process lines
+2. Gradually introduce steam flow while maintaining purge
+3. Light furnace pilots and establish stable combustion
+4. Slowly introduce methane feed at 10% of normal rate
+5. Monitor all temperature and pressure indicators
+6. Increase feed rates gradually to design conditions
+7. Monitor H2_Inlet_Flowrate_Process_variable closely during ramp-up
+
+Critical Parameters During Startup:
+- Maximum temperature ramp rate: 50°C per hour
+- Pressure increase rate: Maximum 2 bar per hour
+- Flow rate increases: No more than 20% per hour
+
+3. Normal Operation Safety
+
+Continuous Monitoring Requirements:
+- H2_Inlet_Flowrate_Set_variable vs Process_variable deviation <5%
+- Reactor temperature uniformity within design limits
+- System pressure maintained within operating range
+- Combustion air flow adequate for stable flame
+
+Daily Safety Inspections:
+- Visual inspection of all process equipment for leaks
+- Check flame pattern in furnace through observation ports
+- Verify emergency shutdown system functionality
+- Test gas detection system response
+- Review alarm logs and address any issues
+
+4. Emergency Procedures
+
+Hydrogen Leak Response:
+1. Activate emergency alarm immediately
+2. Eliminate all ignition sources in the area
+3. If safe to do so, isolate the leak source
+4. Evacuate personnel from immediate area
+5. Use water spray to disperse hydrogen accumulation
+6. Do not re-enter area until hydrogen concentration <1% LEL
+
+Fire Emergency:
+1. Activate fire alarm and emergency shutdown
+2. Implement nitrogen purge of all process lines
+3. Shut off all hydrocarbon feeds immediately
+4. Cool surrounding equipment with water spray
+5. Do not attempt to extinguish gas fires until feed is stopped
+6. Evacuate non-essential personnel
+
+Process Upset Conditions:
+- High temperature alarm: Reduce firing rate immediately
+- Low flow alarm: Check for blockages or pump issues
+- High pressure alarm: Open pressure relief if necessary
+- Loss of control air: Activate emergency nitrogen system
+
+5. Shutdown Procedures
+
+Normal Shutdown:
+1. Gradually reduce feed rates over 2-hour period
+2. Maintain steam flow during cool-down
+3. Reduce furnace firing to minimum stable rate
+4. Continue operation until reactor temperature <400°C
+5. Introduce nitrogen purge while maintaining steam
+6. Shut off methane feed when temperature <300°C
+7. Continue nitrogen purge for minimum 24 hours
+
+Emergency Shutdown:
+1. Immediately close all hydrocarbon feed valves
+2. Activate nitrogen purge system
+3. Reduce furnace firing to pilot flames only
+4. Open pressure relief valves if pressure exceeds limits
+5. Continue nitrogen purge until cool-down complete
+6. Do not restart without thorough safety inspection
+
+6. Maintenance Safety
+
+Hot Work Procedures:
+- Obtain hot work permit before any welding or cutting
+- Test atmosphere for combustible gases before work
+- Maintain fire watch during and after hot work
+- Have appropriate fire suppression equipment available
+
+Confined Space Entry:
+- Test atmosphere before entry (oxygen, toxics, combustibles)
+- Maintain continuous air monitoring during work
+- Use proper ventilation and respiratory protection
+- Implement lockout/tagout procedures
+
+Catalyst Handling:
+- Use appropriate respiratory protection
+- Avoid skin contact with catalyst materials
+- Properly dispose of spent catalyst
+- Follow manufacturer's safety data sheets
+
+7. Environmental Safety
+
+Emissions Control:
+- Monitor stack emissions for compliance
+- Report any unusual emissions immediately
+- Maintain emission control equipment properly
+- Follow air permit requirements
+
+Waste Management:
+- Properly classify and dispose of process wastes
+- Segregate hazardous and non-hazardous materials
+- Maintain waste manifests and records
+- Follow environmental regulations
+
+8. Training Requirements
+
+Operator Certification:
+- Complete SMR process training program
+- Pass written and practical examinations
+- Maintain annual recertification
+- Attend monthly safety meetings
+
+Emergency Response Training:
+- Annual emergency drill participation
+- First aid and CPR certification
+- Hazmat response training for key personnel
+- Self-contained breathing apparatus qualification
+
+9. Documentation and Reporting
+
+Safety Records:
+- Maintain daily operation logs
+- Document all safety incidents and near misses
+- Keep training records current
+- Record all maintenance activities
+
+Incident Reporting:
+- Report all injuries immediately
+- Document equipment failures and root causes
+- Submit regulatory reports as required
+- Communicate lessons learned to other shifts
+
+10. Key Safety Performance Indicators
+
+Monitor and track:
+- Days since last recordable incident
+- Number of safety observations per month
+- Emergency drill response times
+- Gas detection system availability
+- Safety training completion rates
+
+Regular review of these indicators helps identify trends and improvement opportunities for maintaining a safe SMR operation.

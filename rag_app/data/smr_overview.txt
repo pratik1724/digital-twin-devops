@@ -1,0 +1,59 @@
+Steam Methane Reformer (SMR) Process Overview
+
+Steam Methane Reforming is an industrial process that produces hydrogen gas (H2) from methane (CH4) and steam (H2O). This process is widely used in petroleum refineries, chemical plants, and fertilizer production facilities.
+
+Key Process Steps:
+
+1. Feed Preparation
+- Natural gas (primarily methane) is compressed and heated
+- Steam is generated and superheated
+- Both streams are preheated before entering the reactor
+
+2. Reforming Reaction
+The primary reaction occurs in the reformer at high temperature (850-950°C) and pressure (15-30 bar):
+CH4 + H2O → CO + 3H2 (endothermic reaction)
+
+Secondary reactions also occur:
+- Water-gas shift reaction: CO + H2O → CO2 + H2
+- Steam methane reforming: CH4 + 2H2O → CO2 + 4H2
+
+3. Process Control Variables
+
+H2 Inlet Flow Control:
+- H2_Inlet_Flowrate_Set_variable: Target flow rate set by operator (ml/min)
+- H2_Inlet_Flowrate_Process_variable: Actual measured flow rate (ml/min)
+- Typical operating range: 800-1500 ml/min
+- Control loop maintains process variable close to set variable
+
+Temperature Management:
+- Preheater inlet temperature: 200-300°C
+- Reactor inlet temperature: 450-550°C  
+- Reactor temperature zones: 850-950°C
+- Cooling section temperature: 300-400°C
+
+Pressure Control:
+- System pressure: 15-30 bar
+- Pressure sensors monitor upstream conditions
+- Safety relief systems protect against overpressure
+
+4. Safety Considerations
+- High temperature and pressure operation requires careful monitoring
+- Hydrogen gas presents fire and explosion hazards
+- Regular inspection of reactor tubes for coking and corrosion
+- Emergency shutdown systems must be maintained
+
+5. Product Separation
+- Gas cooling and condensation
+- Water separation
+- Hydrogen purification
+- CO2 removal systems
+
+6. Performance Monitoring
+Key performance indicators include:
+- Hydrogen production rate
+- Methane conversion efficiency
+- Steam-to-carbon ratio
+- Reactor tube wall temperature
+- Catalyst activity and life
+
+The SMR process requires continuous monitoring and control to maintain safe and efficient operation while maximizing hydrogen production and minimizing environmental impact.

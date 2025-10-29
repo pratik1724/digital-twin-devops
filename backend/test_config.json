@@ -1,0 +1,1 @@
+{"inlet_modifications": {"stream_3": {"temperature_C": 25, "pressure_bar": 1.0, "mass_flow_mg_s": 30}}, "output_streams": [1,2,6,7], "include_all_streams": true}

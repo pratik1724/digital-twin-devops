@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure popovers/hovercards appear above flow canvas */
+.hovercard-panel { z-index: 60; }
+
+/* Radix base colors fallback */
+:root {
+  --popover: #111216;
+  --popover-foreground: #e5e7eb;
+}
+.bg-popover { background: var(--popover) !important; }
+.text-popover-foreground { color: var(--popover-foreground) !important; }
