@@ -70,7 +70,7 @@ export function DRMSimulationConsole() {
 
   const loadSimulationHistory = async () => {
     try {
-      const backend = process.env.REACT_APP_BACKEND_URL || '';
+      const backend = process.env.REACT_APP_BACKEND_URL || 'http://13.234.117.35:8001';
       const response = await fetch(`${backend}/api/simulate/drm_history`);
       if (response.ok) {
         const data = await response.json();
@@ -103,7 +103,7 @@ export function DRMSimulationConsole() {
     setResults(null);
 
     try {
-      const backend = process.env.REACT_APP_BACKEND_URL || '';
+      const backend = process.env.REACT_APP_BACKEND_URL || 'http://13.234.117.35:8001';
       
       const payload = {
         pressure_bar: processParams.pressure_bar,
@@ -214,7 +214,7 @@ export function DRMSimulationConsole() {
 
   const deleteSimulation = async (simulationId) => {
     try {
-      const backend = process.env.REACT_APP_BACKEND_URL || '';
+      const backend = process.env.REACT_APP_BACKEND_URL || 'http://13.234.117.35:8001';
       const response = await fetch(`${backend}/api/simulate/drm_history/${simulationId}`, {
         method: 'DELETE',
       });
