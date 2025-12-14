@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // API Configuration
-const DEFAULT_API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:8001";
+const DEFAULT_API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "http://13.202.218.246:8001";
 
 // Available gases for selection
 const AVAILABLE_GASES = ["CO2", "CO", "O2", "N2", "CH4", "H2", "Ar", "He"];
