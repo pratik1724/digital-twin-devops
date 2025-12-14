@@ -30,6 +30,7 @@ from rag_service import get_rag_service
 import pandas as pd
 from database import db as simulation_db
 import sys
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
@@ -1355,7 +1356,8 @@ async def run_fop_simulation(params: FOPSimulationRequest):
 async def get_csv_data():
     """Get CSV metrics data for the dashboard"""
     try:
-        csv_file_path = "/app/data/smr_metrics/latest.csv"
+        # csv_file_path = "/app/data/smr_metrics/latest.csv"
+        csv_file_path = os.path.join(PROJECT_ROOT, "data", "smr_metrics", "latest.csv")
         
         if not os.path.exists(csv_file_path):
             logger.error(f"CSV file not found at {csv_file_path}")

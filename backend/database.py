@@ -12,9 +12,13 @@ import uuid
 from datetime import datetime, timezone
 from typing import Dict, List, Optional, Any
 from pathlib import Path
+import os
 
 # Database location
-DB_PATH = "/app/backend/dwsim_simulation_results.db"
+# DB_PATH = "/app/backend/dwsim_simulation_results.db"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(BASE_DIR, "dwsim_simulation_results.db")
+os.makedirs(BASE_DIR, exist_ok=True)
 
 class SimulationDatabase:
     def __init__(self, db_path: str = DB_PATH):
@@ -23,7 +27,7 @@ class SimulationDatabase:
     
     def init_database(self):
         """Initialize database with required tables"""
-        conn = sqlite3.connect(self.db_path)
+        conn = sqlite3.connect(DB_PATH, check_same_thread=False)
         cursor = conn.cursor()
         
         # Enable foreign keys
