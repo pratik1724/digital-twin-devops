@@ -29,7 +29,7 @@ export function LoginForm() {
 
     try {
       // Call backend authentication API
-      const backend = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001';
+      const backend = process.env.REACT_APP_BACKEND_URL || 'http://13.202.218.246:8001';
       const response = await fetch(`${backend}/api/auth/login`, {
         method: 'POST',
         headers: {
