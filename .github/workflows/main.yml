@@ -9,6 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    environment: SERVER_SSH_KEY
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -29,4 +31,4 @@ jobs:
             docker-compose down || true
             echo "Building and starting containers..."
             docker-compose up -d --build
-            echo "Deployment completed successfully"
+            echo "Deployment completed successfully "
