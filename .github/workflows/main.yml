@@ -1,0 +1,39 @@
+name: Deploy SMR Digital Twin to EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment: SERVER_SSH_KEY
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Deploy to EC2 Server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          port: 22
+          script: |
+            set -e
+
+            cd /var/www/smr-dashboard
+
+            echo "Pulling latest code..."
+            git pull origin main
+
+            echo "Stopping existing containers..."
+            docker-compose down || true
+
+            echo "Building and starting containers..."
+            docker-compose up -d --build
+
+            echo "Deployment completed successfully "
