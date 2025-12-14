@@ -7,7 +7,7 @@ class CSVDataReader {
     this.isLoading = false;
     this.currentPlayhead = 0;
     this.timestamps = [];
-    this.apiUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001';
+    this.apiUrl = process.env.REACT_APP_BACKEND_URL || 'http://13.202.218.246:8001';
     this.initialized = false;
     
     // Load data immediately
