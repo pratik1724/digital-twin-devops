@@ -30,7 +30,7 @@ export function LoginForm() {
       // Backend base URL
       const backend =
         process.env.REACT_APP_BACKEND_URL?.trim() ||
-        'http://13.202.218.246:8001';
+        'http://13.205.25.30:8001';
 
       const response = await fetch(`${backend}/api/auth/login`, {
         method: 'POST',
